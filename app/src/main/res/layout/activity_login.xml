@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp"
+    tools:context=".login">
+
+    <ImageView
+        android:transitionName="ImageTransition"
+        android:id="@+id/imageViewM"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/yellowbook"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="To Kaise h app"
+        android:textColor="#000"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign to Continue"
+        android:fontFamily="font/antic"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/usernameLogin"
+            android:hint="username"
+            android:transitionName="name_username">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/passwordLogin"
+            android:hint="password"
+            app:passwordToggleEnabled="true"
+            android:transitionName="name_password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/forgetpassword"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="forget password ?"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            android:layout_gravity="right"/>
+        <Button
+            android:id="@+id/Go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GO"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/newUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            android:text="New User ? Sign Up"
+            android:layout_gravity="right"
+            android:transitionName="name_NewUser"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

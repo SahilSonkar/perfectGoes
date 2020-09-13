@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734496627659",
+    "firebase_url": "https://perfectgoes.firebaseio.com",
+    "project_id": "perfectgoes",
+    "storage_bucket": "perfectgoes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734496627659:android:0580c4c8c6dddcc4ceb44e",
+        "android_client_info": {
+          "package_name": "com.example.perfectgoes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734496627659-qcr36lti7nu3lsitdcpdg8ovedb62lbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.perfectgoes",
+            "certificate_hash": "9faedf59c3f6fcec415b8df043a9593d70d2105e"
+          }
+        },
+        {
+          "client_id": "734496627659-p2ejr8bm50ki54nb1i1pd9jn2e8susap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG1TbqZY0BbZ27wV5NdLA3pW_mr3h0rk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734496627659-p2ejr8bm50ki54nb1i1pd9jn2e8susap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
